@@ -35,6 +35,6 @@ function updateProfile(profile) {
   +profile.results[0].location.city+", "
   +profile.results[0].location.state+", "
   +profile.results[0].location.country;
-  //city.innerHTML = "form the js file.";
+  
   return 1;
 }

@@ -28,6 +28,8 @@ const titles = {
   let views = await readdir('.viewsMin/pages');
 
   router.get('/', (req, res, next) => {
+    console.log("you goping to 3000");
+    
     res.render('pages/index', {title: 'Home'});
   });
   
